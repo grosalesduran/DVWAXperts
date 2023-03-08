@@ -3,3 +3,15 @@ version: v1
 id:
   org: e8790ea6-d517-48ae-9f09-321fc31068bd
   app: 02586451-f778-4c6f-a79b-1401cf4f4d32
+
+scanners: 
+  - sast 
+  - dast 
+  - secret 
+  - sca 
+  - iac 
+  - container
+dast:
+  url: http://XXXXXXXXXXXXXXXX:8081/ 
+  fortipentest_scanner: false #true|false 
+  full_scan: true #true|false
